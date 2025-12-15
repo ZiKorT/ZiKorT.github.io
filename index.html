@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio | Développeur C++ & Web</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <style>
         /* AJOUT POUR LE SCROLL FLUIDE */
@@ -67,7 +67,7 @@
                 </a>
                 <!-- Bouton contact modifié avec JavaScript -->
                 <button onclick="copyEmail(this)" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white font-medium rounded-lg transition-all border border-slate-700 flex items-center gap-2 group">
-                    <i class="fa-regular fa-envelope group-hover:text-blue-400 transition-colors"></i> 
+                    <i class="fa-regular fa-envelope group-hover:text-blue-400 transition-colors"></i>
                     <span>Me contacter</span>
                 </button>
             </div>
@@ -88,16 +88,15 @@
                     <div class="h-48 bg-slate-900 flex items-center justify-center border-b border-slate-700 relative group overflow-hidden">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60"></div>
                         <i class="fa-solid fa-dna text-6xl text-green-500/20 group-hover:text-green-500/40 transition-all scale-100 group-hover:scale-110 duration-500"></i>
-                        <span class="absolute bottom-3 right-3 text-xs font-mono text-slate-500 bg-slate-950 px-2 py-1 rounded border border-slate-800">C++</span>
                     </div>
-                    
+
                     <div class="p-6 flex-1 flex flex-col">
                         <h3 class="text-xl font-bold text-white mb-2">Le Jeu de la Vie</h3>
                         <p class="text-slate-400 text-sm mb-4 flex-1">
                             Implémentation complète de l'automate cellulaire de Conway.
                             Moteur écrit en C++ avec Design Patterns (State, Strategy) et porté sur le web pour démonstration interactive.
                         </p>
-                        
+
                         <div class="flex flex-wrap gap-2 mb-6">
                             <span class="px-2 py-1 text-xs bg-blue-900/30 text-blue-300 rounded border border-blue-900/50">C++</span>
                             <span class="px-2 py-1 text-xs bg-purple-900/30 text-purple-300 rounded border border-purple-900/50">SFML</span>
@@ -128,8 +127,8 @@
                         </p>
                         <div class="flex flex-wrap gap-2 mb-6">
                             <span class="px-2 py-1 text-xs bg-blue-900/30 text-blue-300 rounded border border-blue-900/50">Azure AI</span>
-                            <span class="px-2 py-1 text-xs bg-yellow-700 text-yellow-300 rounded border border-yellow-600">Python</span>
-                            <span class="px-2 py-1 text-xs bg-green-700 text-green-300 rounded border border-green-600">SQL</span>
+                            <span class="px-2 py-1 text-xs bg-yellow-900/30 text-yellow-300 rounded border border-yellow-900/50">Python</span>
+                            <span class="px-2 py-1 text-xs bg-green-900/30 text-green-300 rounded border border-green-900">SQL</span>
                         </div>
                         <div class="flex gap-3 mt-auto">
                             <a href="#" target="_blank" class="flex-1 text-center py-2 bg-blue-600 hover:bg-blue-500 text-white rounded font-medium text-sm transition-colors shadow-lg shadow-blue-900/20">
@@ -145,8 +144,7 @@
                 <!-- PROJET 3 : Assistant Poker -->
                 <article class="bg-slate-800 rounded-xl border border-slate-700 overflow-hidden card-hover transition-all duration-300 flex flex-col">
                     <div class="h-48 bg-slate-900 flex items-center justify-center border-b border-slate-700 relative group">
-                        <!-- Icone Pique pour le Poker -->
-                        <i class="fa-solid fa-spade text-6xl text-pink-500/20 group-hover:text-pink-500/40 transition-all scale-100 group-hover:scale-110 duration-500"></i>
+                        <i class="fa-solid fa-dice text-6xl text-red-500/20 group-hover:text-red-500/40 transition-all scale-100 group-hover:scale-110 duration-500"></i>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                         <h3 class="text-xl font-bold text-white mb-2">Assistant Poker</h3>
@@ -155,10 +153,10 @@
                         </p>
                         <div class="flex flex-wrap gap-2 mb-6">
                             <span class="px-2 py-1 text-xs bg-pink-900/30 text-pink-300 rounded border border-pink-900/50">Algorithmie</span>
-                            <span class="px-2 py-1 text-xs bg-blue-900/30 text-blue-300 rounded border border-blue-900/50">C++</span>
+                            <span class="px-2 py-1 text-xs bg-yellow-900/30 text-yellow-300 rounded border border-yellow-900/50">Python</span>
                         </div>
                         <div class="flex gap-3 mt-auto">
-                            <a href="#" target="_blank" class="flex-1 text-center py-2 bg-blue-600 hover:bg-blue-500 text-white rounded font-medium text-sm transition-colors shadow-lg shadow-blue-900/20">
+                            <a href="https://ZiKorT.github.io/Poker-Engine/" target="_blank" class="flex-1 text-center py-2 bg-blue-600 hover:bg-blue-500 text-white rounded font-medium text-sm transition-colors shadow-lg shadow-blue-900/20">
                                 <i class="fa-solid fa-play mr-1"></i> Tester
                             </a>
                             <a href="https://github.com/ZiKorT/Poker-Engine" class="px-3 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded border border-slate-600 transition-colors" title="Voir le code">
@@ -202,28 +200,28 @@
     <!-- SCRIPT DE COPIE EMAIL -->
     <script>
         function copyEmail(btn) {
-            // !!! IMPORTANT : METS TON ADRESSE EMAIL ICI !!!
-            const email = "e.cazajousrey@gmail.com"; 
+        // !!! IMPORTANT : METS TON ADRESSE EMAIL ICI !!!
+        const email = "e.cazajousrey@gmail.com";
 
-            navigator.clipboard.writeText(email).then(() => {
-                // Sauvegarde le texte original
-                const originalContent = btn.innerHTML;
-                
-                // Change le style pour indiquer le succès
-                btn.innerHTML = '<i class="fa-solid fa-check mr-2"></i><span>Email Copié !</span>';
-                btn.classList.remove('bg-slate-800', 'hover:bg-slate-700');
-                btn.classList.add('bg-green-600', 'hover:bg-green-500', 'border-green-500');
+        navigator.clipboard.writeText(email).then(() => {
+        // Sauvegarde le texte original
+        const originalContent = btn.innerHTML;
 
-                // Remet le bouton comme avant après 2 secondes
-                setTimeout(() => {
-                    btn.innerHTML = originalContent;
-                    btn.classList.add('bg-slate-800', 'hover:bg-slate-700');
-                    btn.classList.remove('bg-green-600', 'hover:bg-green-500', 'border-green-500');
-                }, 2000);
-            }).catch(err => {
-                console.error('Erreur lors de la copie :', err);
-                alert("Impossible de copier l'email. Mon adresse est : " + email);
-            });
+        // Change le style pour indiquer le succès
+        btn.innerHTML = '<i class="fa-solid fa-check mr-2"></i><span>Email Copié !</span>';
+        btn.classList.remove('bg-slate-800', 'hover:bg-slate-700');
+        btn.classList.add('bg-green-600', 'hover:bg-green-500', 'border-green-500');
+
+        // Remet le bouton comme avant après 2 secondes
+        setTimeout(() => {
+        btn.innerHTML = originalContent;
+        btn.classList.add('bg-slate-800', 'hover:bg-slate-700');
+        btn.classList.remove('bg-green-600', 'hover:bg-green-500', 'border-green-500');
+        }, 2000);
+        }).catch(err => {
+        console.error('Erreur lors de la copie :', err);
+        alert("Impossible de copier l'email. Mon adresse est : " + email);
+        });
         }
     </script>
 </body>
