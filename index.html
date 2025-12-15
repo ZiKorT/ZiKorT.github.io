@@ -35,7 +35,8 @@
     <!-- Navbar -->
     <nav class="border-b border-slate-800 bg-slate-950/80 backdrop-blur fixed w-full z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="text-xl font-bold tracking-tight">Mon<span class="text-blue-500">Portfolio</span></span>
+            <!-- Modification du Nom dans la Navbar -->
+            <span class="text-xl font-bold tracking-tight">Elliot <span class="text-blue-500">CAZAJOUS REY</span></span>
             <div class="flex gap-4">
                 <a href="https://github.com/ZiKorT" target="_blank" class="text-slate-400 hover:text-white transition-colors">
                     <i class="fa-brands fa-github text-xl"></i>
@@ -61,10 +62,17 @@
                 Étudiant en informatique spécialisé en C++ et python.
                 J'aime transformer des algorithmes complexes en applications visuelles.
             </p>
-            <div class="flex justify-center gap-4">
+            <div class="flex flex-wrap justify-center gap-4">
                 <a href="#projets" class="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg transition-all">
                     Voir mes projets
                 </a>
+                
+                <!-- Bouton Télécharger CV ajouté -->
+                <a href="cv.pdf" target="_blank" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white font-medium rounded-lg transition-all border border-slate-700 flex items-center gap-2 group">
+                    <i class="fa-solid fa-file-pdf text-red-400 group-hover:text-red-300 transition-colors"></i>
+                    <span>Mon CV</span>
+                </a>
+
                 <!-- Bouton contact modifié avec JavaScript -->
                 <button onclick="copyEmail(this)" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white font-medium rounded-lg transition-all border border-slate-700 flex items-center gap-2 group">
                     <i class="fa-regular fa-envelope group-hover:text-blue-400 transition-colors"></i>
